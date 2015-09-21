@@ -14,6 +14,7 @@ test('select page 1 with page size 5 from array with 20 elements', function (t) 
 	t.equal(p._page.count, 4, '_page.count is 4');
 	t.equal(p._page.next, 2, '_page.next is 2');
 	t.equal(p._page.previous, null, '_page.previous is null');
+	t.equal(p._page.total, 20, '_page.total is 20');
 
 	t.end();
 });

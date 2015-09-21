@@ -33,6 +33,7 @@ function arrayPage (array, pageNumber, pageSize) {
 		, last : count
 		, next : (page + 1 > count) ? null : page + 1
 		, previous : (page - 1 < 1) ? null : page - 1
+		, total : array.length
 	};
 
 	return tmp;

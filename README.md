@@ -15,7 +15,7 @@ var a = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20];
 var page = a.page(/*page number*/ 2, /*page size*/ 3);
 
 console.log(page);
-// [1,2,3,4,5, _page: { page: 1, size: 5, count: 4, start: 0, stop: 5, first: 1, last: 4, next: 2, previous: null } ]
+// [1,2,3,4,5, _page: { page: 1, size: 5, count: 4, start: 0, stop: 5, first: 1, last: 4, next: 2, previous: null, total : 20 } ]
 
 ```
 
