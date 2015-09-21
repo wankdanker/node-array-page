@@ -1,6 +1,8 @@
 array-page
 ----------
 
+[![Build Status](https://travis-ci.org/wankdanker/node-array-page.svg)](https://travis-ci.org/wankdanker/node-array-page)
+
 Get a page worth of records
 
 example

@@ -1,5 +1,5 @@
 {
-  "name": "node-array-page",
+  "name": "array-page",
   "version": "1.0.0",
   "description": "Get a page worth of records from an array",
   "main": "index.js",
