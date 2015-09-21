@@ -1,0 +1,31 @@
+{
+  "name": "node-array-page",
+  "version": "1.0.0",
+  "description": "Get a page worth of records from an array",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wankdanker/node-array-page.git"
+  },
+  "keywords": [
+    "array",
+    "page",
+    "paging",
+    "count",
+    "records",
+    "pageNumber",
+    "pageSize"
+  ],
+  "author": "Dan VerWeire",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wankdanker/node-array-page/issues"
+  },
+  "homepage": "https://github.com/wankdanker/node-array-page#readme",
+  "devDependencies": {
+    "tape": "^4.2.0"
+  }
+}
