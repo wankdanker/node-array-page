@@ -28,7 +28,7 @@ function arrayPage (array, pageNumber, pageSize) {
 		, size : size
 		, count : count
 		, start : start
-		, stop : stop
+		, stop : (stop > array.length) ? array.length : stop
 		, first : 1
 		, last : count
 		, next : (page + 1 > count) ? null : page + 1
